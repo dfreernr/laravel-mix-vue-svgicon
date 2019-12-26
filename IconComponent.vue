@@ -1,8 +1,5 @@
 <template>  
-    <span>
-        <div v-html="require(`SVGPATH/${icon}.svg`)"></div>
-    </span>
-   
+    <span class="icon" v-html="require(`SVGPATH/${icon}.svg`)"></span>   
 </template> 
 <script>
 
